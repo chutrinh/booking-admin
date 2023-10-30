@@ -25,7 +25,7 @@ function Chat({ setEditProd }) {
         navigate("/");
       }
     });
-  }, []);
+  }, [navigate]);
 
   useEffect(() => {
     setEditProd(null);

@@ -20,7 +20,7 @@ function DashBoard({ setEditProd }) {
         navigate("/");
       }
     });
-  }, []);
+  }, [navigate]);
 
   useEffect(() => {
     setEditProd(null);

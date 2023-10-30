@@ -19,7 +19,7 @@ function Product({ setEditProd }) {
         navigate("/");
       }
     });
-  }, []);
+  }, [navigate]);
 
   // useEffect(() => {
   //   setEditProd(null);

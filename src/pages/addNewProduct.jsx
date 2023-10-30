@@ -20,7 +20,7 @@ function AddNewProduct({ editProd }) {
         navigate("/");
       }
     });
-  }, []);
+  }, [navigate]);
 
   const name = useRef();
   const category = useRef();
