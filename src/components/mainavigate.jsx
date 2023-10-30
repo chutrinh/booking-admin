@@ -51,7 +51,8 @@ function Mainavigate({ children }) {
                 <p>List</p>
                 <div className="mx-2">
                   <i className="fa-solid fa-user me-2"></i>
-                  <a className="user">User</a> <br />
+                  <p className="user">User</p>
+                  <br />
                   <br />
                   <i className="fa-solid fa-person-booth me-1"></i>
                   <NavLink to="/chat">Chat</NavLink>
@@ -71,9 +72,9 @@ function Mainavigate({ children }) {
                 <p>Tài Khoản</p>
                 <div className="mx-2">
                   <i className="fa-solid fa-right-from-bracket me-2"></i>
-                  <a href="#" onClick={handleLogout} className="logout">
+                  <p onClick={handleLogout} className="logout">
                     log out
-                  </a>
+                  </p>
                 </div>
               </div>
             </div>
