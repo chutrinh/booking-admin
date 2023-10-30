@@ -21,9 +21,9 @@ function Product({ setEditProd }) {
     });
   }, [navigate]);
 
-  // useEffect(() => {
-  //   setEditProd(null);
-  // });
+  useEffect(() => {
+    setEditProd(null);
+  });
 
   const [products, setProducts] = useState(null);
   const [rerender, setRerender] = useState(false);
