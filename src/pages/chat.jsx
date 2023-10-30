@@ -83,12 +83,16 @@ function Chat({ setEditProd }) {
   };
 
   // sroll end
-  useEffect(() => {
-    const contentChat = document.querySelector("#scoroll_end");
-    if (contentChat) {
-      contentChat.scrollTop = contentChat.scrollHeight;
-    }
-  });
+  // useEffect(() => {
+  //   const contentChat = document.querySelector("#scoroll_end");
+  //   if (contentChat) {
+  //     contentChat.scrollTop = contentChat.scrollHeight;
+  //   }
+  // });
+  const contentChat = document.querySelector("#scoroll_end");
+  if (contentChat) {
+    contentChat.scrollTop = contentChat.scrollHeight;
+  }
 
   return (
     <>

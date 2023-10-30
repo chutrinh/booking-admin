@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import axios from "axios";
 
@@ -71,7 +71,7 @@ function Mainavigate({ children }) {
                 <p>Tài Khoản</p>
                 <div className="mx-2">
                   <i className="fa-solid fa-right-from-bracket me-2"></i>
-                  <a onClick={handleLogout} className="logout">
+                  <a href="#" onClick={handleLogout} className="logout">
                     log out
                   </a>
                 </div>
